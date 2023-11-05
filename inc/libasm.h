@@ -6,19 +6,17 @@
 /*   By: maroy <maroy@student.42.qc>                        ██ ██             */
 /*                                                          ██ ███████.qc     */
 /*   Created: 2023/10/28 21:08:25 by maroy                                    */
-/*   Updated: 2023/11/04 19:33:41 by maroy            >(.)__ <(.)__ =(.)__    */
+/*   Updated: 2023/11/05 13:19:24 by maroy            >(.)__ <(.)__ =(.)__    */
 /*                                                     (___/  (___/  (___/    */
 /* ************************************************************************** */
 
 #ifndef LIBASM_H
 # define LIBASM_H
 
+# include <errno.h>
 # include <stddef.h>
 # include <stdint.h>
 # include <unistd.h>
-
-int		*__error(void);
-# define errno (*__error())
 
 /**
  * @brief The ft_strlen() function calculates the length of the string pointed
