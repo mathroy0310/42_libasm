@@ -1,0 +1,14 @@
+/obj/
+/.vscode/
+
+# Ignore compiled object files
+*.o
+
+# Ignore the executable output
+libasm.a
+
+# garbage from locale
+main.c
+lldb.txt
+test.out
+run.sh
