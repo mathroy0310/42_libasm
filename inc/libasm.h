@@ -1,13 +1,13 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                     ██   ██ ██████         */
-/*   libasm.h                                          ██   ██      ██        */
-/*                                                     ███████  █████         */
-/*   By: maroy <maroy@student.42.qc>                        ██ ██             */
-/*                                                          ██ ███████.qc     */
-/*   Created: 2023/10/28 21:08:25 by maroy                                    */
-/*   Updated: 2023/11/05 13:19:24 by maroy            >(.)__ <(.)__ =(.)__    */
-/*                                                     (___/  (___/  (___/    */
+/*                                                        :::      ::::::::   */
+/*   libasm.h                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: maroy <maroy@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/10/28 21:08:25 by maroy             #+#    #+#             */
+/*   Updated: 2024/02/05 17:37:54 by maroy            ###   ########.fr       */
+/*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBASM_H
@@ -37,5 +37,9 @@ ssize_t	ft_write(int fd, const void *buf, size_t count);
 ssize_t	ft_read(int fd, const void *buf, size_t count);
 
 char	*ft_strdup(const char *s1);
+
+/*== |  BONUS | ==*/
+
+int		ft_atoi_base(char *str, char *base);
 
 #endif // -- LIBASM_H --

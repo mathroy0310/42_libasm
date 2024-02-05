@@ -6,7 +6,7 @@
 #    By: maroy <maroy@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/05 15:40:01 by maroy             #+#    #+#              #
-#    Updated: 2024/02/05 15:40:02 by maroy            ###   ########.fr        #
+#    Updated: 2024/02/05 16:28:13 by maroy            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,8 @@ INC_DIR = inc
 
 SRC_DIR = src
 SRC_BONUS_DIR = src-bonus
-ifeq ($(shell uname), Linux)
+
+ifeq ($(shell uname), Linux)`
 	SRC_DIR = linux/src
 	SRC_BONUS_DIR = /linux/src-bonus
 else ifeq ($(shell uname), Darwin)
